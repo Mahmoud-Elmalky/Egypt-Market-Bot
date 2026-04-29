@@ -218,7 +218,7 @@ def format_message(data: dict) -> str | None:
     if g24 > 0:
         local_ounce = f"{g24 * 31.1035:,.0f}"
 
-    status = " (⚠️ آخر تحديث مسجل)" if data.get("source") != "Live" else ""
+    status = " (⚠️ Last recorded update)" if data.get("source") != "Live" else ""
 
     return f"""
 📌 اسعار الذهب الأن{status}
