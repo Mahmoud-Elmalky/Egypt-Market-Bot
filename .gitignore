@@ -1,0 +1,4 @@
+.env
+last_prices.json
+__pycache__/
+Message format.txt

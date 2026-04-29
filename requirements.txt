@@ -1,0 +1,5 @@
+python-telegram-bot>=20.0
+yfinance>=0.2.30
+requests
+beautifulsoup4
+python-dotenv
